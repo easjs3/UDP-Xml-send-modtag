@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XmlUD
+namespace XMLSender
 {
     class Program
     {
         static void Main(string[] args)
         {
-            XmlUDPReceiver xmlUdpReceiver = new XmlUDPReceiver(420);
-            xmlUdpReceiver.start();
+            XMLSender xmlSender = new XMLSender(420);
+            xmlSender.start();
             Console.ReadLine();
         }
     }

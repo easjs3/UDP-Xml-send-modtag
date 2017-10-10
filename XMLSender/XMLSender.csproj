@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{579745C7-AB2E-47CE-9EC1-7654A85AE20D}</ProjectGuid>
+    <ProjectGuid>{1380860F-FE90-43E3-ACD7-59193E4471FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>XmlUD</RootNamespace>
-    <AssemblyName>XmlUD</AssemblyName>
+    <RootNamespace>XMLSender</RootNamespace>
+    <AssemblyName>XMLSender</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XMLSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
